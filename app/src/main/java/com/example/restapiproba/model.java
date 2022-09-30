@@ -3,12 +3,12 @@ package com.example.restapiproba;
 public class model {
 
     int id;
-    String title, body;
+    String name, gender;
 
     public model(int id, String name, String gender) { // generate --> constructor
         this.id = id;
-        this.title = name;
-        this.body = gender;
+        this.name = name;
+        this.gender = gender;
     }
 
     public int getId() {
@@ -19,19 +19,19 @@ public class model {
         this.id = id;
     }
 
-    public String getTitle() {
-        return title;
+    public String getName() {
+        return name;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getBody() {
-        return body;
+    public String getGender() {
+        return gender;
     }
 
-    public void setBody(String body) {
-        this.body = body;
+    public void setGender(String gender) {
+        this.gender = gender;
     }
 }

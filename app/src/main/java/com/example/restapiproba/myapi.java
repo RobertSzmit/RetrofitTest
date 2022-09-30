@@ -7,6 +7,6 @@ import java.util.List;
 
 public interface myapi {
 
-    @GET ("posts")
+    @GET ("test1.php")
     Call<List<model>> getmodels();
 }
